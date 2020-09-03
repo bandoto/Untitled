@@ -1059,7 +1059,7 @@ body.lock {
   }
 
   .form {
-    margin: 0 0 0 60px;
+    margin: 0 0 20px 60px;
   }
 
   .block-1 {
@@ -1132,6 +1132,10 @@ body.lock {
     margin: 0;
   }
 
+  .countdown-content__title {
+    margin: 0;
+  }
+
   .header__body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1175,6 +1179,7 @@ body.lock {
   .form {
     max-width: 280px;
     margin: 0 auto;
+    margin-bottom: 10px;
   }
 
   .form input {
