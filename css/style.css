@@ -60,8 +60,7 @@
 
 .countdown-content__title_b3 {
   margin: 0;
-  -moz-text-align-last: left;
-       text-align-last: left;
+  text-align: left;
   margin: 0 0 0 25px;
 }
 
@@ -1069,6 +1068,7 @@ body.lock {
   .block-1__title {
     margin: 0 auto;
     font-size: 22px !important;
+    width: 65%;
   }
 
   .block-1__list li {
@@ -1134,6 +1134,10 @@ body.lock {
 
   .countdown-content__title {
     margin: 0;
+  }
+
+  .countdown-content__title_b3 {
+    margin: 0 0 0 25px;
   }
 
   .header__body {
@@ -1257,6 +1261,18 @@ body.lock {
 }
 
 @media (max-width: 560px) {
+  .countdown_b3 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .countdown-content__title_b3 {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+  }
+
   .block-3__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1285,6 +1301,10 @@ body.lock {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .block-2__text {
+    padding: 0;
   }
 }
 
